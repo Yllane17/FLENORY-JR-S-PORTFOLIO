@@ -377,22 +377,23 @@
         </div>
       </div>
 
-      <form class="contact-form-area" action="https://formsubmit.co/yllanedave43@gmail.com" method="post">
+      <form class="contact-form-area" action="https://api.web3forms.com/submit" method="post" >
+          <input type="hidden" name="access_key" value="804c99ea-ba08-49f3-a764-0a972841b7ce">
         <div class="form-group">
           <label class="form-label">Nom complet</label>
-          <input class="form-input" type="text" placeholder="Votre nom">
+          <input class="form-input" type="text" name="name" placeholder="Votre nom">
         </div>
         <div class="form-group">
           <label class="form-label">Email</label>
-          <input class="form-input focused" type="email" placeholder="votre@email.com">
+          <input class="form-input focused" type="email" name="email" placeholder="votre@email.com">
         </div>
         <div class="form-group">
           <label class="form-label">Sujet</label>
-          <input class="form-input" type="text" placeholder="Collaboration / Projet / ...">
+          <input class="form-input" type="text" name="subject" placeholder="Collaboration / Projet / ...">
         </div>
         <div class="form-group">
           <label class="form-label">Message</label>
-          <textarea class="form-input form-textarea" placeholder="Décrivez votre projet..."></textarea>
+          <textarea class="form-input form-textarea" name="message" placeholder="Décrivez votre projet..."></textarea>
         </div>
         <button class="form-submit" type="submit">
           <div class="form-submit-inner">
