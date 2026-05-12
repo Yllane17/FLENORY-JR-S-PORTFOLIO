@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YLLANE - Développeur Web &amp; Logiciel</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Custom cursor -->
+<div class="cursor-ring" id="cursor"></div>
+
+<!-- Fixed navigation -->
+<nav>
+  <div class="nav-logo"><span>YL</span>LANE</div>
+  <ul class="nav-links">
+    <li><a href="#hero" class="active">Accueil</a></li>
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#domains">Domaines</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-burger" id="burgerBtn">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- Mobile nav overlay -->
+<div class="nav-mobile-menu" id="mobileMenu">
+  <button class="nav-close" id="closeMenu">✕</button>
+  <a href="#hero">Accueil</a>
+  <a href="#about">À propos</a>
+  <a href="#skills">Compétences</a>
+  <a href="#projects">Projets</a>
+  <a href="#domains">Domaines</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- Scroll indicator dots -->
+<div class="scroll-dots">
+  <div class="dot active" data-target="hero"></div>
+  <div class="dot" data-target="about"></div>
+  <div class="dot" data-target="skills"></div>
+  <div class="dot" data-target="projects"></div>
+  <div class="dot" data-target="domains"></div>
+  <div class="dot" data-target="contact"></div>
+</div>
+
+<!-- SCROLL CONTAINER -->
+<div class="scroll-container" id="scrollContainer">
+
+  <!-- ══════════ HERO ══════════ -->
+  <section id="hero">
+    <div class="noise"></div>
+    <div class="video-bg"></div>
+    <div class="video-overlay"></div>
+
+    <!-- Video background indicator -->
+    <div class="video-badge">
+      <div class="video-badge-dot"></div>
+      <span class="video-badge-text">Video BG · Loop</span>
+    </div>
+
+    <div class="accent-line-v"></div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow">Developpeur &amp; Creator</div>
+      <div class="hero-title">
+        <div class="glow">YLL</div>
+        <div class="outline">ANE</div>
+      </div>
+      <div class="hero-subtitle">Développeur Web &amp; Logiciel</div>
+      <div class="hero-cta">
+        <button class="btn-primary">Voir mes projets</button>
+        <div class="btn-secondary">
+          <div class="play-icon">▶</div>
+          Showreel
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-figure"></div>
+
+    <div class="hero-socials">
+      <span class="social-label">Follow —</span>
+      <a href="https://github.com/Yllane17" class="social-link">GH</a>
+      <a href="https://linkedin.com/in/yllane" class="social-link">LI</a>
+      <a href="https://wa.me/6522997019" class="social-link">WH</a>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════ À PROPOS ══════════ -->
+  <section id="about">
+    <div class="noise"></div>
+    <div class="video-bg"></div>
+    <div class="video-overlay"></div>
+    <div class="section-number">02</div>
+
+    <div class="about-layout">
+      <div class="about-visual">
+        <div class="about-photo-frame">
+          <div class="corner-tl"></div>
+          <div class="corner-br"></div>
+        </div>
+        <div class="about-badge">
+          <div class="badge-number">2+</div>
+          <div class="badge-label">ans d'expérience</div>
+        </div>
+      </div>
+
+      <div class="about-text-col">
+        <div class="section-tag">À propos</div>
+        <h2 class="section-title">
+          Passionné par<br>le code <em>&amp; la création de logiciels</em>
+        </h2>
+        <p class="about-text">
+          Développeur web & logiciel avec une double sensibilité technique et artistique.
+          J'aime construire des expériences digitales qui allient performance et esthétique.
+          Actuellement en formation, je travaille sur des projets concrets qui mêlent
+          ingénierie logicielle, design d'interface et créativité sonore.
+        </p>
+        <div class="about-tags">
+          <span class="tag">.NET / C#</span>
+          <span class="tag">Java</span>
+          <span class="tag">HTML / CSS</span>
+          <span class="tag">UI/UX</span>
+          <span class="tag">Python</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ COMPÉTENCES ══════════ -->
+  <section id="skills">
+    <div class="noise"></div>
+    <div class="video-bg"></div>
+    <div class="video-overlay"></div>
+    <div class="section-number">03</div>
+
+    <div class="skills-layout">
+      <div class="section-tag" style="justify-content:center;">Compétences</div>
+      <h2 class="skills-section-title">Stack <em style="color:transparent;-webkit-text-stroke:1px rgba(255,255,255,0.35)">Technique</em></h2>
+
+      <div class="skills-categories">
+        <span class="skill-cat active">Frontend</span>
+        <span class="skill-cat">Backend</span>
+        <span class="skill-cat">Desktop</span>
+        <span class="skill-cat">Outils</span>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card featured">
+          <div class="skill-icon"><img src="./images/icons8-réagir-40.png" alt="react"></div>
+          <div class="skill-name">React / JS</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:32%"></div></div>
+          <div class="skill-level-text">Amateur</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <img src="./images/icons8-html-5-48.png" alt="html">
+            <img src="./images/icons8-css3-48.png" alt= "css">
+         </div>
+          <div class="skill-name">HTML / CSS</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:90%;background:var(--neon-violet);box-shadow:0 0 8px var(--neon-violet)"></div></div>
+          <div class="skill-level-text">Expert</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="./images/icons8-logo-java-coffee-cup-48.png" alt="java"></div>
+          <div class="skill-name">Java</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:45%;background:var(--neon-pink);box-shadow:0 0 8px var(--neon-pink)"></div></div>
+          <div class="skill-level-text">Amateur</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="./images/icons8-c-sharp-logo-2-48.png" alt="C#"></div>
+          <div class="skill-name">C# / .NET</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:78%"></div></div>
+          <div class="skill-level-text">Avancé</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="./images/icons8-sql-48.png" alt="sql"></div>
+          <div class="skill-name">SQL / DB</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:60%;background:var(--neon-violet);box-shadow:0 0 8px var(--neon-violet)"></div></div>
+          <div class="skill-level-text">Intermédiaire</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="./images/icons8-git-48.png" alt="git"></div>
+          <div class="skill-name">Git / GitHub</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:85%"></div></div>
+          <div class="skill-level-text">Avancé</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="./images/icons8-cadre-réseau-48.png" alt="Winforms"></div>
+          <div class="skill-name">WinForms</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:72%;background:var(--neon-pink);box-shadow:0 0 8px var(--neon-pink)"></div></div>
+          <div class="skill-level-text">Intermédiaire</div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon"><img src="./images/icons8-python-48.png" alt="python"></div>
+          <div class="skill-name">Python</div>
+          <div class="skill-level-bar"><div class="skill-level-fill" style="width:65%"></div></div>
+          <div class="skill-level-text">Intermédiaire</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ PROJETS ══════════ -->
+  <section id="projects">
+    <div class="noise"></div>
+    <div class="video-bg"></div>
+    <div class="video-overlay"></div>
+    <div class="section-number">04</div>
+
+    <div class="projects-layout">
+      <div class="projects-header">
+        <div>
+          <div class="section-tag">Projets</div>
+          <h2 class="section-title" style="font-size:clamp(24px,3.5vw,46px);margin-bottom:0">Work <em>Selected</em></h2>
+        </div>
+        <button class="view-all-btn">Tous les projets</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Projet large -->
+        <div class="project-card large">
+          <div class="project-card-bg"></div>
+          <div class="project-grid-pattern"></div>
+          <div class="project-card-content">
+            <div class="project-tech-stack">
+              <span class="tech-pill">C# .NET</span>
+              <span class="tech-pill">WinForms</span>
+              <span class="tech-pill">LibVLC</span>
+            </div>
+            <div class="project-title-card">SAFE ROAD<br>DESKTOP</div>
+            <div class="project-desc">Application desktop de surveillance routière avec analyse vidéo en temps réel, navigation multi-panels et lecture vidéo intégrée.</div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-bg"></div>
+          <div class="project-grid-pattern"></div>
+          <div class="project-card-content">
+            <div class="project-tech-stack">
+              <span class="tech-pill">Java</span>
+              <span class="tech-pill">Swing</span>
+            </div>
+            <div class="project-title-card">LE PENDU</div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-bg"></div>
+          <div class="project-grid-pattern"></div>
+          <div class="project-card-content">
+            <div class="project-tech-stack">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">Node.js</span>
+            </div>
+            <div class="project-title-card">WEB APP PROJECT</div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-bg"></div>
+          <div class="project-grid-pattern"></div>
+          <div class="project-card-content">
+            <div class="project-tech-stack">
+              <span class="tech-pill">Microsoft Word</span>
+              <span class="tech-pill">Microsoft PowerPoint</span>
+            </div>
+            <div class="project-title-card">ANALYSE DES FACTEURS DE RISQUES<br>PRESENTATION</div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-bg"></div>
+          <div class="project-grid-pattern"></div>
+          <div class="project-card-content">
+            <div class="project-tech-stack">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+            </div>
+            <div class="project-title-card">UI PORTFOLIO<br>CONCEPTS</div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ AUTRES DOMAINES ══════════ -->
+  <section id="domains">
+    <div class="noise"></div>
+    <div class="video-bg"></div>
+    <div class="video-overlay"></div>
+    <div class="section-number">05</div>
+
+    <div class="domains-layout">
+      <div class="section-tag" style="justify-content:center;">Univers créatif</div>
+      <h2 class="skills-section-title">Autres <em style="color:transparent;-webkit-text-stroke:1px rgba(255,255,255,0.35)">Domaines</em></h2>
+
+      <div class="domains-cards">
+        <div class="domain-card">
+          <div class="domain-icon-large"><img src="./assets/icons8-fl-studio.svg" alt="logo fl studio" srcset=""></div>
+          <div class="domain-title">Production Musicale</div>
+          <div class="domain-desc">
+            Composition, beatmaking et sound design. De l'idée au master,
+            je crée des univers sonores uniques avec une sensibilité électronique.
+            Le logiciel de MAO (Musique Assistée par Ordinateur) que j'utilise est FL Studio.
+          </div>
+          <div class="domain-corner-accent">Explore →</div>
+        </div>
+
+        <div class="domain-card">
+          <div class="domain-icon-large"><img src="./images/icons8-photoshop-48.png" alt="logo photoshop" srcset=""></div>
+          <div class="domain-title">Logo & Brand Design</div>
+          <div class="domain-desc">
+            Création d'identités visuelles, logos et chartes graphiques.
+            Design minimaliste et impactant pour des marques qui ont du caractère.
+          </div>
+          <div class="domain-corner-accent">Explore →</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ CONTACT ══════════ -->
+  <section id="contact">
+    <div class="noise"></div>
+    <div class="video-bg"></div>
+    <div class="video-overlay"></div>
+    <div class="section-number">06</div>
+
+    <div class="contact-layout">
+      <div class="contact-left">
+        <div class="section-tag">Contact</div>
+        <div class="contact-big-text">
+          Travaillons<br><span class="accent">ensemble</span>
+        </div>
+        <p class="contact-sub">
+          Un projet, une idée, une collaboration ?
+          Je suis disponible pour des missions freelance,
+          des stages ou simplement échanger.
+        </p>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <div class="info-icon"><img src="./images/icons8-nouveau-message-16.png" alt=""></div>
+            <div>
+              <div class="info-label">Email</div>
+              <div class="info-value">yllanedave43@gmail.com</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="info-icon"><img src="./images/icons8-localisation-actuelle-16.png" alt=""></div>
+            <div>
+              <div class="info-label">Localisation</div>
+              <div class="info-value">France</div>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="info-icon"><img src="./images/icons8-ok-16.png" alt=""></div>
+            <div>
+              <div class="info-label">Disponibilité</div>
+              <div class="info-value">Ouvert aux opportunités</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-area">
+        <div class="form-group">
+          <label class="form-label">Nom complet</label>
+          <input class="form-input" type="text" placeholder="Votre nom">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input class="form-input focused" type="email" placeholder="votre@email.com">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Sujet</label>
+          <input class="form-input" type="text" placeholder="Collaboration / Projet / ...">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Message</label>
+          <textarea class="form-input form-textarea" placeholder="Décrivez votre projet..."></textarea>
+        </div>
+        <button class="form-submit">
+          <div class="form-submit-inner">
+            <span>Envoyer le message</span>
+            <span>→</span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <div class="footer-copy">© 2026 YLLANE — Tous droits réservés</div>
+      <div class="footer-socials">
+        <a href="https://github.com/Yllane17" class="footer-social">GitHub</a>
+        <a href="https://www.linkedin.com/in/yllane" class="footer-social">LinkedIn</a>
+        <a href="https://wa.me/6522997019" class="footer-social">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+</div>
+<script src="./js/script.js"></script>
+<script src="./backend/email.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</body>
+</html>

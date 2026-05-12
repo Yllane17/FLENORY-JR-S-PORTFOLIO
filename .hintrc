@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "development"
+  ],
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 147",
+    "not and_ff <= 150",
+    "not chrome <= 148",
+    "not edge <= 147",
+    "not firefox <= 150",
+    "not opera <= 131",
+    "not samsung <= 29"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter",
+          "user-select"
+        ]
+      }
+    ]
+  }
+}
