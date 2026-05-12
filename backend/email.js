@@ -6,7 +6,7 @@ contactForm.addEventListener("submit", function (e) {
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
-    emailjs.SendForm(
+    emailjs.sendForm(
         "service_gfg5i6s",
         "template_q2c5l4h",
         this
